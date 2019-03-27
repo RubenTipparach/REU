@@ -1,4 +1,5 @@
 __pycache__
 my_imports.txt
+*.pyc
 scan.xml
 qk

@@ -13,13 +13,10 @@
 import subprocess, os, sys, json, random, time
 import msgpack, http.client
 
-from flask import Flask
-
-app = Flask("REU Server")
-
 #global variables to be later changed to input from calling
 #program
 hosts = ['192.168.171.128']
+#hosts = ['134.129.92.202']
 intensity = 'Loud'
 iface = 'vboxnet0'
 
@@ -267,29 +264,6 @@ class HostController:
         if(not post_debug):
             subprocess.Popen(['rm','-rf',msf_exploit_dir])
 
-## default run, we'll have to change some of these paramters around.
-@app.route("/init")
-def initProgram():
-    controller = HostController()
-
-    #loop through hosts
-    for ip in hosts:
-        host = Host(ip, 'vulnerable')
-        controller.exploit_target(host, options)
-    return "executed hosts"
-
-## parameterized host targets through post
-@app.route("/init/host", methods =['POST'])
-def initProgramHost():
-    if request.method == "POST":
-        data = request.form
-        return data
-    else:
-        return "Method not availible."
-
-@app.route("/")
-def test():
-    return "REU Server Online"
 
 if __name__ == '__main__':
     #make sure user is root
@@ -299,6 +273,8 @@ if __name__ == '__main__':
         print('[-]THIS PROGRAM REQUIRES ROOT PRIVILEGE')
         print('[-]YOUR UID IS: ' + str(uid))
         exit(1)
-    app.run(debug=True,host='0.0.0.0',port=3000)
-
-
+    controller = HostController()
+    #loop through hosts
+    for ip in hosts:
+        host = Host(ip, 'vulnerable')
+        controller.exploit_target(host, options)
