@@ -1,8 +1,14 @@
 import ezhack
+import subprocess, os, sys, json, random, time
+import msgpack, http.client
 
-import subprocess
-
-host_folder = '../hosts/'
+host_folder = ''
+msf_exploit_dir = '/derploits'
+#global variables for debugging
+#some things don't need to be run every time for testing:
+nmap_debug = 0
+search_debug = 1
+post_debug = 0
 
 class Host:
     def __init__(self, ip_addr, hostname):
@@ -12,7 +18,7 @@ class Host:
         self.scanxml = host_folder + hostname + '.xml'
         self.exploits_file = host_folder + hostname + '.json'
         self.exploits = []
-        self.host.session = None
+        self.hostSession = None
         self.backdoor_port = -1
 
 def scan_for_hosts(interface='eth0'):
@@ -32,7 +38,7 @@ def scan_for_hosts(interface='eth0'):
 
 def scan_target(host):
 	# More flexibility can be added later, this is fine for now
-	subprocess.call(f'nmap -A -T5 --script=banner {host.ip_addr} -oX {host.scanxml} -e eth0')
+	subprocess.getoutput(f'nmap -A -T5 --script=banner {host.ip_addr} -oX {host.scanxml} -e eth0')
 
 def lookup_exploit(host):
 	

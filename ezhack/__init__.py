@@ -1,2 +1,2 @@
-from . import exploit, lookup_exploit, msfrpc_revised, payload, post_exploit, scan_for_hosts, scan_target
+from . import exploit_target, msfrpc_revised, search_for_exploits, build_payload, drop_payload, scan_target, scan_for_hosts
 

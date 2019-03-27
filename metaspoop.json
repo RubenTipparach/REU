@@ -1,0 +1,285 @@
+[i] SearchSploit's XML mode (without verbose enabled).   To enable: searchsploit -v --xml...
+[i] Reading: 'metaspoop.xml'
+
+{
+	"SEARCH": "vsftpd 2 3 4",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [
+		{"Title":"vsftpd 2.3.4 - Backdoor Command Execution (Metasploit)","EDB-ID":"17491","Date":"2011-07-05","Author":"Metasploit","Type":"remote","Platform":"unix","Path":"/usr/share/exploitdb/exploits/unix/remote/17491.rb"}
+	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "openssh 4 7p1 debian 8ubuntu1",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "linux telnetd",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "postfix smtpd",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "isc bind 9 4 2",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "apache httpd 2 2 8",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "rpcbind 2",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [
+		{"Title":"Wietse Venema Rpcbind Replacement 2.1 - Denial of Service","EDB-ID":"20376","Date":"1998-11-13","Author":"Patrick Gilbert","Type":"dos","Platform":"unix","Path":"/usr/share/exploitdb/exploits/unix/dos/20376.txt"}
+	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "samba smbd 3 x 4 x",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "netkit rsh rexecd",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "tcpwrapped",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "gnu classpath grmiregistry",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "metasploitable root shell",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "nfs 2 4",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [
+		{"Title":"Apple Mac OSX (Lion) Kernel xnu-1699.32.7 except xnu-1699.24.8 NFS Mount - Local Privilege Escalation","EDB-ID":"32813","Date":"2014-04-11","Author":"Kenzley Alphonse","Type":"local","Platform":"osx","Path":"/usr/share/exploitdb/exploits/osx/local/32813.c"},
+		{"Title":"Linux Kernel < 2.6.31-rc4 - 'nfs4_proc_lock()' Denial of Service","EDB-ID":"10202","Date":"2009-10-15","Author":"Simon Vallet","Type":"dos","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/dos/10202.c"}
+	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "proftpd 1 3 1",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [
+		{"Title":"ProFTPd 1.2 < 1.3.0 (Linux) - 'sreplace' Remote Buffer Overflow (Metasploit)","EDB-ID":"16852","Date":"2011-01-09","Author":"Metasploit","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/16852.rb"},
+		{"Title":"ProFTPd 1.2 pre1/pre2/pre3/pre4/pre5 - Remote Buffer Overflow (1)","EDB-ID":"19475","Date":"1999-08-17","Author":"babcia padlina ltd","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/19475.c"},
+		{"Title":"ProFTPd 1.2 pre1/pre2/pre3/pre4/pre5 - Remote Buffer Overflow (2)","EDB-ID":"19476","Date":"1999-08-27","Author":"anonymous","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/19476.c"},
+		{"Title":"ProFTPd 1.3 - 'mod_sql' 'Username' SQL Injection","EDB-ID":"32798","Date":"2009-02-10","Author":"AlpHaNiX","Type":"remote","Platform":"multiple","Path":"/usr/share/exploitdb/exploits/multiple/remote/32798.pl"},
+		{"Title":"ProFTPd 1.3.0 (OpenSUSE) - 'mod_ctrls' Local Stack Overflow","EDB-ID":"10044","Date":"2009-10-12","Author":"Michael Domberg","Type":"local","Platform":"unix","Path":"/usr/share/exploitdb/exploits/unix/local/10044.pl"},
+		{"Title":"ProFTPd 1.3.0 - 'sreplace' Remote Stack Overflow (Metasploit)","EDB-ID":"2856","Date":"2006-11-27","Author":"Evgeny Legerov","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/2856.pm"},
+		{"Title":"ProFTPd 1.3.0/1.3.0a - 'mod_ctrls' 'support' Local Buffer Overflow (1)","EDB-ID":"3330","Date":"2007-02-18","Author":"Revenge","Type":"local","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/local/3330.pl"},
+		{"Title":"ProFTPd 1.3.0/1.3.0a - 'mod_ctrls' 'support' Local Buffer Overflow (2)","EDB-ID":"3333","Date":"2007-02-19","Author":"Revenge","Type":"local","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/local/3333.pl"},
+		{"Title":"ProFTPd 1.3.0/1.3.0a - 'mod_ctrls' exec-shield Local Overflow","EDB-ID":"3730","Date":"2007-04-13","Author":"Xpl017Elz","Type":"local","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/local/3730.txt"},
+		{"Title":"ProFTPd 1.3.0a - 'mod_ctrls' 'support' Local Buffer Overflow (PoC)","EDB-ID":"2928","Date":"2006-12-13","Author":"Core Security","Type":"dos","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/dos/2928.py"},
+		{"Title":"ProFTPd 1.3.2 rc3 < 1.3.3b (FreeBSD) - Telnet IAC Buffer Overflow (Metasploit)","EDB-ID":"16878","Date":"2010-12-02","Author":"Metasploit","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/16878.rb"},
+		{"Title":"ProFTPd 1.3.2 rc3 < 1.3.3b (Linux) - Telnet IAC Buffer Overflow (Metasploit)","EDB-ID":"16851","Date":"2011-01-09","Author":"Metasploit","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/16851.rb"},
+		{"Title":"ProFTPd 1.3.3c - Compromised Source Backdoor Remote Code Execution","EDB-ID":"15662","Date":"2010-12-02","Author":"anonymous","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/15662.txt"},
+		{"Title":"ProFTPd 1.3.5 - 'mod_copy' Command Execution (Metasploit)","EDB-ID":"37262","Date":"2015-06-10","Author":"Metasploit","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/37262.rb"},
+		{"Title":"ProFTPd 1.3.5 - 'mod_copy' Remote Command Execution","EDB-ID":"36803","Date":"2015-04-21","Author":"R-73eN","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/36803.py"},
+		{"Title":"ProFTPd 1.3.5 - File Copy","EDB-ID":"36742","Date":"2015-04-13","Author":"anonymous","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/36742.txt"},
+		{"Title":"ProFTPd IAC 1.3.x - Remote Command Execution","EDB-ID":"15449","Date":"2010-11-07","Author":"kingcope","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/15449.pl"},
+		{"Title":"ProFTPd-1.3.3c - Backdoor Command Execution (Metasploit)","EDB-ID":"16921","Date":"2010-12-03","Author":"Metasploit","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/16921.rb"},
+		{"Title":"WU-FTPD 2.4/2.5/2.6 / Trolltech ftpd 1.2 / ProFTPd 1.2 / BeroFTPD 1.3.4 FTP - glob Expansion","EDB-ID":"20690","Date":"2001-03-15","Author":"Frank DENIS","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/20690.sh"}
+	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "mysql 5 0 51a 3ubuntu5",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "postgresql db 8 3 0 8 3 7",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "vnc",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [
+		{"Title":"AMX Corp. VNC ActiveX Control - 'AmxVnc.dll 1.0.13.0' Remote Buffer Overflow","EDB-ID":"4123","Date":"2007-06-28","Author":"rgod","Type":"remote","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/remote/4123.html"},
+		{"Title":"Chicken of the VNC 2.0 - 'NULL-pointer' Remote Denial of Service","EDB-ID":"3257","Date":"2007-02-02","Author":"poplix","Type":"dos","Platform":"osx","Path":"/usr/share/exploitdb/exploits/osx/dos/3257.php"},
+		{"Title":"EchoVNC Viewer - Remote Denial of Service","EDB-ID":"27292","Date":"2013-08-02","Author":"Z3r0n3","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/27292.py"},
+		{"Title":"QEMU 0.9 / KVM 36/79 - VNC Server Remote Denial of Service","EDB-ID":"32675","Date":"2008-12-22","Author":"Alfredo Ortega","Type":"dos","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/dos/32675.py"},
+		{"Title":"RealVNC - Authentication Bypass (Metasploit)","EDB-ID":"17719","Date":"2011-08-26","Author":"Metasploit","Type":"remote","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/remote/17719.rb"},
+		{"Title":"RealVNC 3.3.7 - Client Buffer Overflow (Metasploit)","EDB-ID":"16489","Date":"2010-04-30","Author":"Metasploit","Type":"remote","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/remote/16489.rb"},
+		{"Title":"RealVNC 4.1.0 < 4.1.1 - VNC Null Authentication Bypass (Metasploit)","EDB-ID":"1794","Date":"2006-05-15","Author":"H D Moore","Type":"remote","Platform":"multiple","Path":"/usr/share/exploitdb/exploits/multiple/remote/1794.pm"},
+		{"Title":"RealVNC 4.1.0 < 4.1.1 - VNC Null Authentication Bypass","EDB-ID":"1791","Date":"2006-05-16","Author":"redsand","Type":"remote","Platform":"multiple","Path":"/usr/share/exploitdb/exploits/multiple/remote/1791.patch"},
+		{"Title":"RealVNC 4.1.0 < 4.1.1 - VNC Null Authentication Scanner","EDB-ID":"1799","Date":"2006-05-17","Author":"class101","Type":"remote","Platform":"multiple","Path":"/usr/share/exploitdb/exploits/multiple/remote/1799.txt"},
+		{"Title":"RealVNC 4.1.0/4.1.1 - Authentication Bypass","EDB-ID":"36932","Date":"2012-05-13","Author":"fdiskyou","Type":"remote","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/remote/36932.py"},
+		{"Title":"RealVNC 4.1.2 - 'vncviewer.exe' RFB Protocol Remote Code Execution (PoC)","EDB-ID":"7943","Date":"2009-02-02","Author":"Andres Luksenberg","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/7943.py"},
+		{"Title":"RealVNC 4.1.3 - 'ClientCutText' Message Remote Denial of Service","EDB-ID":"33924","Date":"2010-05-02","Author":"John Leitch","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/33924.py"},
+		{"Title":"RealVNC Server 4.0 - Remote Denial of Service","EDB-ID":"24412","Date":"2004-08-25","Author":"Uz4yh4N","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/24412.c"},
+		{"Title":"RealVNC Windows Client 4.1.2 - Remote Denial of Service Crash (PoC)","EDB-ID":"6181","Date":"2008-08-01","Author":"beford","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/6181.php"},
+		{"Title":"SmartCode ServerX VNC Server ActiveX 1.1.5.0 - 'scvncsrvx.dll' Denial of Service","EDB-ID":"14634","Date":"2010-08-13","Author":"LiquidWorm","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/14634.txt"},
+		{"Title":"SmartCode VNC Manager 3.6 - 'scvncctrl.dll' Denial of Service","EDB-ID":"3873","Date":"2007-05-08","Author":"shinnai","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/3873.html"},
+		{"Title":"Sun SunPCi II VNC Software 2.3 - Password Disclosure","EDB-ID":"21592","Date":"2002-07-03","Author":"Richard van den Berg","Type":"local","Platform":"unix","Path":"/usr/share/exploitdb/exploits/unix/local/21592.c"},
+		{"Title":"TightVNC - Authentication Failure Integer Overflow (PoC)","EDB-ID":"8024","Date":"2009-02-09","Author":"desi","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/8024.py"},
+		{"Title":"Ultr@VNC 1.0.1 - 'client Log::ReallyPrint' Buffer Overflow (PoC)","EDB-ID":"1643","Date":"2006-04-04","Author":"Luigi Auriemma","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/1643.c"},
+		{"Title":"Ultr@VNC 1.0.1 - 'client Log::ReallyPrint' Remote Buffer Overflow","EDB-ID":"1664","Date":"2006-04-11","Author":"Paul Haas","Type":"remote","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/remote/1664.py"},
+		{"Title":"Ultr@VNC 1.0.1 - VNCLog::ReallyPrint Remote Buffer Overflow (PoC)","EDB-ID":"1642","Date":"2006-04-04","Author":"Luigi Auriemma","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/1642.c"},
+		{"Title":"UltraVNC 1.0.1 - Client Buffer Overflow (Metasploit)","EDB-ID":"16490","Date":"2010-04-30","Author":"Metasploit","Type":"remote","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/remote/16490.rb"},
+		{"Title":"UltraVNC 1.0.1 - Multiple Remote Error Logging Buffer Overflow Vulnerabilities (1)","EDB-ID":"27568","Date":"2006-04-04","Author":"Luigi Auriemma","Type":"remote","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/remote/27568.py"},
+		{"Title":"UltraVNC 1.0.1 - Multiple Remote Error Logging Buffer Overflow Vulnerabilities (2)","EDB-ID":"27569","Date":"2006-04-04","Author":"Luigi Auriemma","Type":"remote","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/remote/27569.txt"},
+		{"Title":"UltraVNC 1.0.2 Client - 'vncviewer.exe' Remote Buffer Overflow (Metasploit)","EDB-ID":"18666","Date":"2012-03-26","Author":"Metasploit","Type":"remote","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/remote/18666.rb"},
+		{"Title":"UltraVNC 1.0.8.2 - DLL Loading Arbitrary Code Execution","EDB-ID":"34542","Date":"2010-08-30","Author":"Ivan Markovic","Type":"remote","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/remote/34542.c"},
+		{"Title":"UltraVNC/TightVNC (Multiple VNC Clients) - Multiple Integer Overflows (PoC)","EDB-ID":"7990","Date":"2009-02-04","Author":"Andres Luksenberg","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/7990.py"},
+		{"Title":"VNC Keyboard - Remote Code Execution (Metasploit)","EDB-ID":"37598","Date":"2015-07-13","Author":"Metasploit","Type":"remote","Platform":"multiple","Path":"/usr/share/exploitdb/exploits/multiple/remote/37598.rb"},
+		{"Title":"Vino VNC Server 3.7.3 - Persistent Denial of Service","EDB-ID":"28338","Date":"2013-09-17","Author":"Trustwave's SpiderLabs","Type":"dos","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/dos/28338.txt"},
+		{"Title":"WinVNC Web Server 3.3.3r7 - GET Overflow (Metasploit)","EDB-ID":"16491","Date":"2009-12-06","Author":"Metasploit","Type":"remote","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/remote/16491.rb"}
+	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "x11",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [
+		{"Title":"ASUS DSL-X11 ADSL Router - DNS Change","EDB-ID":"40373","Date":"2016-09-13","Author":"Todor Donev","Type":"webapps","Platform":"cgi","Path":"/usr/share/exploitdb/exploits/cgi/webapps/40373.sh"},
+		{"Title":"BSD/OS 2.1 / DG/UX 7.0 / Debian 1.3 / HP-UX 10.34 / IBM AIX 4.2 / SGI IRIX 6.4 / Solaris 2.5.1 - '/usr/bin/X11/xlock' Local Privilege Escalation (2)","EDB-ID":"19173","Date":"1997-04-26","Author":"BeastMaster","Type":"local","Platform":"unix","Path":"/usr/share/exploitdb/exploits/unix/local/19173.c"},
+		{"Title":"Eterm 0.8.10 / rxvt 2.6.1 / PuTTY 0.48 / X11R6 3.3.3/4.0 - Denial of Service","EDB-ID":"19984","Date":"2000-05-31","Author":"Kit Knox","Type":"dos","Platform":"multiple","Path":"/usr/share/exploitdb/exploits/multiple/dos/19984.c"},
+		{"Title":"Gnome 1.0/1.1 / Group X 11.0 / XFree86 X11R6 3.3.x/4.0 - Denial of Service","EDB-ID":"20023","Date":"2000-06-19","Author":"Chris Evans","Type":"dos","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/dos/20023.c"},
+		{"Title":"SCO Open Server 5.0.5 / IRIX 6.2 ibX11/X11 Toolkit/Athena Widget Library - Local Buffer Overflow","EDB-ID":"19684","Date":"1999-12-20","Author":"Last Stage of Delirium","Type":"local","Platform":"multiple","Path":"/usr/share/exploitdb/exploits/multiple/local/19684.c"},
+		{"Title":"Slackware Linux 3.1 - '/usr/X11/bin/SuperProbe' Local Buffer Overflow","EDB-ID":"19283","Date":"1997-03-04","Author":"Solar","Type":"local","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/local/19283.c"},
+		{"Title":"Solaris 5.5.1 X11R6.3 - xterm '-xrm' Local Privilege Escalation","EDB-ID":"338","Date":"1997-05-28","Author":"David Hedley","Type":"local","Platform":"solaris","Path":"/usr/share/exploitdb/exploits/solaris/local/338.c"},
+		{"Title":"Tor (Linux) - X11 Linux Sandbox Breakout","EDB-ID":"42626","Date":"2017-09-06","Author":"Google Security Research","Type":"local","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/local/42626.c"},
+		{"Title":"X 11.0/3.3.3/3.3.4/3.3.5/3.3.6/4.0 - libX11 '_XAsyncReply()' Stack Corruption","EDB-ID":"20045","Date":"2000-06-19","Author":"Chris Evans","Type":"local","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/local/20045.c"},
+		{"Title":"X.Org X11 (X11R6.9.0/X11R7.0) - Local Privilege Escalation","EDB-ID":"1596","Date":"2006-03-20","Author":"H D Moore","Type":"local","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/local/1596.txt"},
+		{"Title":"X.Org xorg-x11-xfs 1.0.2-3.1 - Local Race Condition","EDB-ID":"5167","Date":"2008-02-21","Author":"vl4dZ","Type":"local","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/local/5167.sh"},
+		{"Title":"X11R6 3.3.3 - Symlink","EDB-ID":"19257","Date":"1999-03-21","Author":"Stealthf0rk","Type":"local","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/local/19257.c"},
+		{"Title":"X11R6 < 6.4 XKEYBOARD (Solaris/SPARC) - Local Buffer Overflow (1)","EDB-ID":"2330","Date":"2006-09-08","Author":"RISE Security","Type":"local","Platform":"solaris","Path":"/usr/share/exploitdb/exploits/solaris/local/2330.c"},
+		{"Title":"X11R6 < 6.4 XKEYBOARD (Solaris/SPARC) - Local Buffer Overflow (2)","EDB-ID":"2360","Date":"2006-09-13","Author":"Marco Ivaldi","Type":"local","Platform":"solaris","Path":"/usr/share/exploitdb/exploits/solaris/local/2360.c"},
+		{"Title":"X11R6 < 6.4 XKEYBOARD (sco x86) - Local Buffer Overflow","EDB-ID":"2332","Date":"2006-09-08","Author":"RISE Security","Type":"local","Platform":"sco","Path":"/usr/share/exploitdb/exploits/sco/local/2332.c"},
+		{"Title":"X11R6 < 6.4 XKEYBOARD (solaris x86) - Local Buffer Overflow","EDB-ID":"2331","Date":"2006-09-08","Author":"RISE Security","Type":"local","Platform":"solaris","Path":"/usr/share/exploitdb/exploits/solaris/local/2331.c"},
+		{"Title":"XFree86 X11R6 3.3 XDM - Session Cookie Guessing","EDB-ID":"20993","Date":"2001-06-24","Author":"ntf & sky","Type":"remote","Platform":"unix","Path":"/usr/share/exploitdb/exploits/unix/remote/20993.c"},
+		{"Title":"XFree86 X11R6 3.3.2 XMan - ManPath Environment Variable Buffer Overflow","EDB-ID":"21010","Date":"2001-06-11","Author":"kf","Type":"local","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/local/21010.sh"},
+		{"Title":"XFree86 X11R6 3.3.5/3.3.6/4.0 Xserver - Denial of Service","EDB-ID":"19950","Date":"2000-05-18","Author":"Chris Evans","Type":"dos","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/dos/19950.c"},
+		{"Title":"XFree86 X11R6 3.3.x - Font Server Remote Buffer Overrun","EDB-ID":"22036","Date":"2002-11-25","Author":"TESO Security","Type":"remote","Platform":"unix","Path":"/usr/share/exploitdb/exploits/unix/remote/22036.pl"},
+		{"Title":"Xorg X11 Server (AIX) - Local Privilege Escalation","EDB-ID":"45938","Date":"2018-12-04","Author":"0xdono","Type":"local","Platform":"aix","Path":"/usr/share/exploitdb/exploits/aix/local/45938.pl"},
+		{"Title":"Xorg X11 Server - SUID privilege escalation (Metasploit)","EDB-ID":"45908","Date":"2018-11-26","Author":"Metasploit","Type":"local","Platform":"multiple","Path":"/usr/share/exploitdb/exploits/multiple/local/45908.rb"},
+		{"Title":"xorg-x11-server 1.20.3 - Privilege Escalation","EDB-ID":"45742","Date":"2018-10-30","Author":"Marco Ivaldi","Type":"local","Platform":"openbsd","Path":"/usr/share/exploitdb/exploits/openbsd/local/45742.sh"},
+		{"Title":"xorg-x11-server < 1.20.1 - Local Privilege Escalation","EDB-ID":"45832","Date":"2018-11-13","Author":"bolonobolo","Type":"local","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/local/45832.py"},
+		{"Title":"xorg-x11-server < 1.20.3 - 'modulepath' Local Privilege Escalation","EDB-ID":"45922","Date":"2018-11-30","Author":"Marco Ivaldi","Type":"local","Platform":"openbsd","Path":"/usr/share/exploitdb/exploits/openbsd/local/45922.sh"},
+		{"Title":"xorg-x11-server < 1.20.3 - Local Privilege Escalation (Solaris 11 inittab)","EDB-ID":"46142","Date":"2019-01-14","Author":"Marco Ivaldi","Type":"local","Platform":"solaris","Path":"/usr/share/exploitdb/exploits/solaris/local/46142.sh"},
+		{"Title":"xorg-x11-server < 1.20.3 - Local Privilege Escalation","EDB-ID":"45697","Date":"2018-10-25","Author":"Hacker Fantastic","Type":"local","Platform":"multiple","Path":"/usr/share/exploitdb/exploits/multiple/local/45697.txt"}
+	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [
+		{"Title":"OSX/PPC - execve(/usr/X11R6/bin/xterm) Shellcode (141 bytes)","EDB-ID":"13487","Date":"2004-09-26","Author":"B-r00t","Type":"shellcode","Platform":"osx_ppc","Path":"/usr/share/exploitdb/shellcodes/osx_ppc/13487.c"}
+	]
+}
+
+
+{
+	"SEARCH": "unrealircd",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [
+		{"Title":"UnrealIRCd 3.2.8.1 - Backdoor Command Execution (Metasploit)","EDB-ID":"16922","Date":"2010-12-05","Author":"Metasploit","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/16922.rb"},
+		{"Title":"UnrealIRCd 3.2.8.1 - Local Configuration Stack Overflow","EDB-ID":"18011","Date":"2011-10-20","Author":"DiGMi","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/18011.txt"},
+		{"Title":"UnrealIRCd 3.2.8.1 - Remote Downloader/Execute","EDB-ID":"13853","Date":"2010-06-13","Author":"anonymous","Type":"remote","Platform":"linux","Path":"/usr/share/exploitdb/exploits/linux/remote/13853.pl"},
+		{"Title":"UnrealIRCd 3.x - Remote Denial of Service","EDB-ID":"27407","Date":"2006-03-09","Author":"Brandon Milner","Type":"dos","Platform":"windows","Path":"/usr/share/exploitdb/exploits/windows/dos/27407.pl"}
+	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "apache jserv",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
+{
+	"SEARCH": "apache tomcat coyote jsp engine 1 1",
+	"DB_PATH_EXPLOIT": "/usr/share/exploitdb",
+	"RESULTS_EXPLOIT": [	],
+	"DB_PATH_SHELLCODE": "/usr/share/exploitdb",
+	"RESULTS_SHELLCODE": [	]
+}
+
+
