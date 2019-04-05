@@ -6,7 +6,8 @@ from flask import Flask
 
 
 app = Flask(__name__)
-host = ezk.Host("192.168.1.93","metaspoop")
+fileName = "metaspoop"
+host = ezk.Host("192.168.1.93",fileName)
 #host = ezk.Host("134.129.92.202","metaspoop")
 
 #192.168.1.93
@@ -22,15 +23,42 @@ def main():
     #drop_payload(payload,session)
     #priv = handle_host(cmd="id")
     #print(priv)
+#ip = []
 
 @app.route("/")
 def ping():
     return ("Server is online. " + str(datetime.datetime.now()))
 
-@app.route("/")
+@app.route("/scan_for_hosts")
 def scan():
     ip = ezk.scan_for_hosts()
     return str(ip)
+
+@app.route("/scan_target/<host_index>")
+def scan_host(host_index):
+	ips = ezk.scan_for_hosts()
+	ip = ips[int(host_index)]
+	host = ezk.Host(ip,fileName)
+	print(ip)
+	ezk.scan_target(host)
+
+	with open(fileName + '.xml', 'r') as file:
+		data = file.read()
+		return data
+
+# TODO: figure out a smoother way to call these functions without calling the
+# entire stack again.
+@app.route("/lookup_exploit")
+def lookup_exploit():
+	result = ezk.lookup_exploit(host)
+	print(result)
+	#return ezk.lookup_exploit(host)
+	#host.ip_addr
+	return "ran searchsploit"
+#	with open(fileName + '.json', 'r') as file:
+#		data = file.read()
+#		return data
+
 
 if __name__ == '__main__':
     #main()
