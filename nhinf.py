@@ -1,7 +1,11 @@
 #import ezhack as ez
 import ezhacker as ezk
+import datetime
 # Nighthawk Interface script.
+from flask import Flask
 
+
+app = Flask(__name__)
 host = ezk.Host("192.168.1.93","metaspoop")
 #host = ezk.Host("134.129.92.202","metaspoop")
 
@@ -18,6 +22,15 @@ def main():
     #drop_payload(payload,session)
     #priv = handle_host(cmd="id")
     #print(priv)
-    
+
+@app.route("/")
+def ping():
+    return "Server is online. " + str(datetime.datetime.now())
+
+@app.route("/")
+def scan():
+    ip = ezk.scan_for_hosts()
+    return str(ip)
+
 if __name__ == '__main__':
     main()
